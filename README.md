@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Verse Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Verse Generator** é uma aplicação web interativa que permite aos usuários gerar versículos bíblicos personalizados. Com uma interface intuitiva, o aplicativo oferece recursos para personalizar o tema, fundo e estilo do texto, proporcionando uma experiência única.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+1. [Tecnologias Utilizadas](#tecnologias-utilizadas)  
+2. [Funcionalidades](#funcionalidades)  
+3. [Instalação](#instalação)  
+   - [Pré-requisitos](#pré-requisitos)  
+   - [Passos](#passos)  
+4. [Contribuição](#contribuição)  
+5. [Licença](#licença)  
+6. [Contato](#contato)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js**: Biblioteca principal para construção da interface.  
+- **HTML5 e CSS3**: Para estrutura e estilização da interface.  
+- **JavaScript**: Para funcionalidades e lógica do aplicativo.  
+- **C#**: Backend para gerenciamento de dados e lógica de negócios.  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `npm run build`
+- [ ] Gerar versículos aleatórios por tema (em planejamento).  
+- [ ] Alterar o fundo com uma imagem enviada pelo usuário (em planejamento).  
+- [ ] Ajustar o foco do fundo (em planejamento).  
+- [x] Alterar o tamanho e a cor da fonte do texto (em planejamento).  
+- [ ] Salvar e compartilhar versículos personalizados (em planejamento).  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `npm run eject`
+- **Node.js** (versão 16 ou superior).  
+- **Gerenciador de pacotes** (npm ou yarn).  
+- **Visual Studio Code** ou outro editor de código de sua preferência.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Passos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone o repositório:  
+    ```bash
+    git clone https://github.com/seu-usuario/verse-generator.git
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navegue até o diretório do projeto:  
+    ```bash
+    cd verse-generator
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Instale as dependências:  
+    ```bash
+    npm install
+    ```
 
-## Learn More
+4. Inicie o servidor de desenvolvimento:  
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Acesse a aplicação no navegador:  
+    ```
+    http://localhost:3000
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contribuições são bem-vindas! Para contribuir:  
 
-### Analyzing the Bundle Size
+1. Faça um fork do repositório.  
+2. Crie uma branch para sua feature:  
+    ```bash
+    git checkout -b minha-feature
+    ```
+3. Commit suas mudanças:  
+    ```bash
+    git commit -m "Adicionei nova funcionalidade"
+    ```
+4. Envie a branch:  
+    ```bash
+    git push origin minha-feature
+    ```
+5. Abra um Pull Request.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Este projeto está licenciado sob a [MIT License](LICENSE).  
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contato
 
-### Deployment
+- **Email**: contato@gfctech.com.br  
+- **LinkedIn**: [Gabriel Calixto](https://www.linkedin.com/in/gabriel-calixto)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Desenvolvido por Gabriel Calixto.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
